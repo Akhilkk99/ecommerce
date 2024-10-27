@@ -18,7 +18,7 @@ const Orders = ({token}) => {
       if(response.data.success){
         console.log(response.data);
         
-        setOrders(response.data.orders.reverse)
+        setOrders(response.data.orders.reverse())
       }else{
         toast.error(response.data.message)
       }
