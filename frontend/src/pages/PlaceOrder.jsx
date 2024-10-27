@@ -56,7 +56,7 @@ const PlaceOrder = () => {
         }
       }
       const rzp = new window.Razorpay(options)
-      rzy.open()
+      rzp.open()
   }
 
   const onSubmitHandler = async(e)=>{
